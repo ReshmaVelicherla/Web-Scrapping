@@ -1,14 +1,22 @@
- Mobile Phone Data Web Scraping Project
+Flipkart Laptop Data Scraper:
 
-**Overview:**
-
-This project involves web scraping mobile phone data from [Insert Website Name, e.g., GSMArena, Amazon, Flipkart] to collect structured information such as brand, model, specifications, prices, and ratings. The purpose is to analyze trends in smartphone features and pricing for market research and data analytics.
+This project is a **web scraping script** built with Python to collect data on laptops listed on [Flipkart](https://www.flipkart.com). It extracts product details like name, price, ratings, specifications, and more. The data is stored in a CSV file for analysis and visualization.
 
 
 
-**Objectives:**
+Features:
 
-- Extract mobile phone details from an e-commerce or product review website.
-- Clean and structure the data for analysis.
-- Save the dataset in CSV format for further exploration or visualization.
-- Perform exploratory data analysis (EDA) to find trends.
+- Scrapes multiple pages of laptop listings from Flipkart
+- Extracts key data points:
+  - Brand
+  - Models
+  - Price
+  - Processor
+  - RAM
+  - ROM
+  - OS
+  - Display
+  - Warranty
+- Stores the data in a clean CSV format
+- Includes data cleaning steps for standardization
+- Ready for analysis or machine learning tasks
